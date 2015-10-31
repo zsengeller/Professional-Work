@@ -1,0 +1,61 @@
+html,
+body,
+div,
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: .85em;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    line-height: 1;
+    width: 160px;
+    height: 600px;
+    margin: 0 auto;
+    color: #fff;
+}
+#rabbitBanner, .content {
+    width: 160px;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    background-color: #000;
+    position: relative;
+    cursor: pointer;
+}
+.dust, .dust2, .dust3, .dust4{
+width: 160px;
+height: 600px;
+}
+.txt1, .txt2, .txt3, .txt4, .dust, .dust2, .dust3, .dust4, .rabbit, .rabbit2{
+position: absolute;
+}
+.txt1{
+margin: 243.5px 0px 0px 15px;
+}
+.txt2{
+margin: 243.5px 0px 0px 15px;
+}
+.txt3{
+margin: 282.5px 0px 0px 10.5px;
+}
+.txt4{
+margin: 283.5px 0px 0px 24.5px;
+}
+.logo{
+margin: 175px 0px 0px 8px;
+}
+.logo250{
+margin: 10px 0px 0px 29.5px;
+}
+.txtLegal{
+margin: 230px 0px 0px 10.5px;
+}
+.btn img {
+    margin: 10px 0 0 14px;
+    background-color: #272727;
+    border: none;
+}

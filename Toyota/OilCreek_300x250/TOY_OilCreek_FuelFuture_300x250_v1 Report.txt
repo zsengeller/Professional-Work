@@ -1,0 +1,88 @@
+﻿TOY_OilCreek_FuelFuture_300x250_v1.swf Movie Report
+----------------------------------------------------
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    -----
+      1          77413          77413    Scene 1 (AS 2.0 Classes Export Frame)
+      2             11          77424    
+      3              1          77425    
+      4              1          77426    
+      5              1          77427    
+      6              1          77428    
+      7              8          77436    
+      8              1          77437    
+
+Scene      Shape Bytes    Text Bytes    ActionScript Bytes
+-------    -----------    ----------    ------------------
+Scene 1             41             0                  1825
+
+Symbol                Shape Bytes    Text Bytes    ActionScript Bytes
+------------------    -----------    ----------    ------------------
+_reference bitmaps              0             0                     0
+mc_back                        29             0                     0
+mc_back3                        0             0                     0
+mc_bg                          41             0                   150
+mc_bg_all                       0             0                     0
+mc_bg_zoomedOut                 0             0                     0
+mc_bullshit_frame               0             0                   150
+mc_bullshitLogo                 0             0                     0
+mc_bullsht_shadow               0             0                     0
+mc_car                          0             0                   150
+mc_copy1                        0             0                   537
+mc_copy2                        0             0                   524
+mc_copy3                        0             0                     0
+mc_cow_ear                      0             0                     0
+mc_cow_tail                     0             0                     0
+mc_cta                          0             0                   118
+mc_darken                      50             0                     0
+mc_grass_patch                215             0                     0
+mc_legal                        0             0                     0
+mc_logo_back                  105             0                     0
+mc_logo_mira                    0             0                     0
+mc_mask                         0             0                     0
+mc_pump                         0             0                     0
+mc_pump_shadow                 59             0                     0
+mc_shadow_car                  93             0                     0
+mc_shadow_cow                   0             0                     0
+mc_sky_car                      0             0                     0
+mc_sky_cow                      0             0                     0
+mc_toy_logo                     0             0                     0
+Symbol 1                        0            71                     0
+Symbol 2                        0             0                     0
+Symbol 3                        0            67                     0
+Symbol 4                        0            72                     0
+
+Font Name       Bytes         Characters
+------------    ----------    ----------
+DINOffc-Cond          1604     .ABCEFGHIKLNORTUW …
+
+ActionScript Bytes    Location
+------------------    --------
+              1823    Scene 1:actions:1
+               150    mc_bullshit_frame:Layer 3:1
+               150    mc_bg:as:1
+               150    mc_car:as:1
+               537    mc_copy1:as:1
+               524    mc_copy2:as:1
+               117    mc_cta:Layer 3:1
+                 1    mc_cta:Layer 3:2
+                 1    Scene 1:actions:2
+                 1    Scene 1:actions:7
+              9841    ActionScript 2.0 Classes
+
+Bitmap                      Compressed    Original      Compression
+------------------------    ----------    ----------    -----------
+300x250_oil-creek_bg.png         17279        300000    JPEG Quality=70
+300x250_bg.jpg                   26274        474768    JPEG Quality=70
+300x250_car.png                   7011        101640    JPEG Quality=70
+pump.png                          3533         31160    JPEG Quality=70
+300x250_txt_fueledBy.png           267          2912    Lossless
+logo_mirai.png                    1488         26400    JPEG Quality=70
+300x250_car_half.png              2219         45408    JPEG Quality=70
+300x250_toy_logo.png               670          1700    Lossless
+300x250_legal.png                  547          1800    Lossless
+300x250_cta.png                    962          3700    Lossless
+
+
+
+

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- main banner styles -->
+        <link rel="stylesheet" href="styles.css">
+        <title>Johnsonville Cooking - 970x90</title>
+    </head>
+    <body>
+
+
+
+        <div id="banner">
+            <!-- banner stuff here -->
+            <div class="background"></div>
+
+            <div class="sausage">
+                <img src="sausage.png" width="393" height="90" alt="">
+            </div>
+
+            <div class="logo"></div>
+
+            <div class="headline word1"></div>
+            <div class="headline word2"></div>
+            <div class="headline word3"></div>
+           <div class="headline word4"></div>
+
+            <div class="sausage-sunday"></div>
+
+            <div class="cta-divider cta-divider-top"></div>
+
+            <div class="cta"></div>
+
+            <div class="cta-arrow"></div>
+
+            <div class="cta-divider cta-divider-bottom"></div>
+
+        </div><!--end #banner-->
+
+
+
+
+
+        <!-- Greensock -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenLite.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TimelineLite.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/plugins/CSSPlugin.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/easing/EasePack.min.js"></script>
+
+        <script src="main.js"></script>
+        <script type="text/javascript">
+
+            /******************************************************************************
+            *
+            * Click handler
+            *
+            *****************************************************************************/
+            var clickTag = "http://google.com";
+            document.getElementById("banner").addEventListener("click",
+
+            function(){
+                window.open(window.clickTag);
+            });
+
+            window.onload = function() {
+                createMasterTl();
+            };
+
+        </script>
+    </body>
+</html>

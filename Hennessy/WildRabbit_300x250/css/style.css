@@ -1,0 +1,86 @@
+html,
+body,
+div,
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: .85em;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    line-height: 1;
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+
+
+#rabbitBanner, .content {
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    background-color: #000;
+    position: relative;
+    cursor: pointer;
+}
+
+.dust, .dust2{
+width: 300px;
+height: 250px;
+}
+.txt1, .txt2, .txt3, .txt4, .dust, .dust2, .rabbit, .rabbit2{
+position: absolute;
+}
+
+
+
+.txt1{
+margin: 86px 0px 0px 32px;
+}
+.txt2{
+margin: 86.5px 0px 0px 28px;
+}
+.txt3{
+margin: 101.5px 0px 0px 57.5px;
+}
+.txt4{
+margin: 101px 0px 0px 66.5px;
+}
+
+.logo{
+margin: 20px 0px 0px 36.5px;
+}
+.logo250{
+margin: 10px 0px 0px 77px;
+}
+.txtLegal{
+margin: 25px 0px 0px 23.5px;
+}
+
+button {
+    width: 140px;
+    height: 30px;
+    margin: 10px 0 0 80px;
+    background-color: #272727;
+    border: none;
+}
+.btn a {
+    width: 140px;
+    height: 30px;
+    color: #b99f62;
+    text-decoration: none;
+    -webkit-transition: all .45s;
+    -moz-transition: all .45s;
+    -o-transition: all .45s;
+    -ms-transition: all .45s;
+    transition: all .45s;
+}
+.btn a:hover {
+    color: #fff;
+}

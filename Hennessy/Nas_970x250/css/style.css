@@ -1,0 +1,155 @@
+html,
+body,
+div,
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+body {
+    line-height: 1;
+    width: 970px;
+    margin: 0 auto;
+    color: #fff
+}
+.nasBanner {
+    width: 970px;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    background-color: #000;
+    position: relative
+}
+#frame1 {
+    position: absolute;
+    width: 970px;
+    height: 250px
+}
+#bg1 {
+    background: url(../img/slide1.jpg);
+    width: 970px;
+    height: 250px
+}
+#frame2 {
+    position: absolute;
+    width: 970px;
+    height: 250px
+}
+#bg2 {
+    background: url(../img/slide2.jpg);
+    width: 970px;
+    height: 250px
+}
+#frame3 {
+    position: absolute;
+    width: 970px;
+    height: 250px
+}
+#bg3 {
+    background: url(../img/slide3.jpg);
+    width: 970px;
+    height: 250px
+}
+#frame4 {
+    position: absolute;
+    width: 970px;
+    height: 250px
+}
+#bg4 {
+    background: url(../img/slide4.jpg);
+    width: 970px;
+    height: 250px
+}
+#frame5,
+#frame6 {
+    position: absolute;
+    width: 970px;
+    height: 250px
+}
+.panel,
+.logoBig,
+.logo250,
+#logo,
+#bottle,
+.txt1,
+.txt2,
+.txt3,
+.txt4,
+.txt5,
+.txt6,
+.txt7,
+.txtLegal,
+.btn {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+#logo {
+    margin: 200px 0 0 20px;
+    position: relative;
+    z-index: 100
+}
+.txt1 {
+    margin: 125px 200px
+}
+.txt2 {
+    margin: 125px 399px
+}
+.txt3 {
+    margin: 125px 0 100px 300px
+}
+.txt4 {
+    margin: 125px 0 100px 600px
+}
+.txt5 {
+    margin: 125px 0 0 300px
+}
+.txt6 {
+    margin: 125px 0 0 264px
+}
+.txt7 {
+    margin: 125px 0 0 572px
+}
+#bottle {
+    margin: 0 393px
+}
+.txtLegal {
+    margin: 200px 219px 0
+}
+.logoBig {
+    margin: 50px 321px 0;
+    width: 328px;
+    height: 59px
+}
+.logo250 {
+    margin: 125px 0 0 15px;
+    width: 195px;
+    height: 100px
+}
+button {
+    width: 217px;
+    height: 34px;
+    margin: 120px 376.5px 0;
+    background-color: #272727;
+    border: none
+}
+.btn a {
+    width: 217px;
+    height: 34px;
+    color: #b99f62;
+    text-decoration: none;
+    -webkit-transition: all .45s;
+    -moz-transition: all .45s;
+    -o-transition: all .45s;
+    -ms-transition: all .45s;
+    transition: all .45s
+}
+.btn a:hover {
+    color: #fff
+}

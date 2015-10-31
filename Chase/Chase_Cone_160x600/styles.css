@@ -1,0 +1,83 @@
+/******************************************************************************
+ *
+ * Chase Campaign 160x600 Banner
+ *
+ *****************************************************************************/
+*, html {
+  box-sizing: border-box; }
+
+body{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.wrapper {
+  position: relative;
+  width: 160px;
+  height: 600px;
+  border: 1px solid #777777;
+  cursor: pointer;
+  overflow: hidden;
+  visibility: hidden; }
+
+#banner {
+  position: absolute;
+  width: 160px;
+  height: 600px; }
+
+.bg {
+  background: url("bg.jpg") no-repeat;
+  width: 160px;
+  height: 600px;
+  background-size: cover;
+  }
+
+.text {
+  background: url("text.png") no-repeat;
+  background-size: 480px 600px;
+  position: absolute;
+  top: 0;
+  width: 160px;
+  height: 600px;
+}
+
+.text1 {
+  background-position: 0 0;
+  }
+
+.text2 {
+  background-position: -160px top;
+  }
+
+.text3 {
+  background-position: -320px top;
+  }
+
+.cta {
+  background: url("txt_learn-more.png") no-repeat 6px;
+  background-size: 76px 10px;
+  position: absolute;
+  left: 32.5px;
+  top: 460px;
+  width: 95px;
+  height: 30px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #0079c2; }
+
+.cta .over {
+  border-color: tomato;
+}
+
+.logo {
+  position: absolute;
+  background: url("logo.svg") no-repeat;
+  background-size: cover;
+  width: 112px;
+  height: 38px;
+  z-index: 10;
+  top: 525px;
+  left: 24px;
+  /*clip: rect(0, 162px, 17px, 0);*/
+}

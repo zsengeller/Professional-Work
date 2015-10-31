@@ -1,0 +1,140 @@
+html,
+body,
+div,
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: .85em;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    line-height: 1;
+    width: 600px;
+    margin: 0 auto;
+    color: #fff;
+}
+#nasBanner {
+    width: 160px;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    background-color: #000;
+    position: relative;
+    cursor: pointer;
+}
+#bg1 {
+    background: url(../img/slide1.jpg);
+    width: 160px;
+    height: 600px;
+    position: absolute;
+}
+#bg2 {
+    background: url(../img/slide2.jpg);
+    width: 160px;
+    height: 600px;
+}
+#bg3 {
+    background: url(../img/slide3.jpg);
+    width: 160px;
+    height: 600px;
+}
+#bg4 {
+    background: url(../img/slide4.jpg);
+    width: 160px;
+    height: 600px;
+}
+#bg5 {
+    background: url(../img/slide5.jpg);
+    width: 160px;
+    height: 600px;
+}
+#frame1, #frame2, #frame3, #frame4, #frame5, #frame6, #frame7 {
+    position: absolute;
+    width: 160px;
+    height: 600px;
+}
+.panel,
+.logoBig,
+.logo250,
+#logo,
+#bottle,
+.txt1,
+.txt2,
+.txt3,
+.txt4,
+.txt5,
+.txt6,
+.txtLegal,
+.btn{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+#logo {
+    margin-top: 560px;
+    margin-left: 9px;
+    position: relative;
+    z-index: 100;
+}
+#bottle{
+margin-top: 30px;
+left: -10px;
+width: 184px;
+height: 481px;
+}
+.txt1 {
+    margin: 300px 0 0 26px;;
+}
+.txt2 {
+    margin: 300px 0 0 8.5px;;
+}
+.txt3 {
+    margin: 300px 0 0 31px;
+    z-index: 100;
+}
+.txt4 {
+    margin: 325px 0 0 31px;
+    z-index: 100;
+}
+.txt5 {
+    margin: 300px 0 0 21px;
+}
+.txt6 {
+    margin: 500px 0 0 31px;
+}
+
+.txtLegal {
+    margin: 530px 0 0 7px;
+}
+.logoBig {
+    margin: 200px 0 0 10px;
+}
+.logo250 {
+    margin: 245px 0 0 26.5px;
+
+}
+button {
+    width: 140px;
+    height: 30px;
+    margin: 350px 0 0 10px;
+    background-color: #272727;
+    border: none;
+}
+.btn a {
+    width: 140px;
+    height: 30px;
+    color: #b99f62;
+    text-decoration: none;
+    -webkit-transition: all .45s;
+    -moz-transition: all .45s;
+    -o-transition: all .45s;
+    -ms-transition: all .45s;
+    transition: all .45s;
+}
+.btn a:hover {
+    color: #fff;
+}

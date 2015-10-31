@@ -1,0 +1,47 @@
+html,
+body,
+div,
+a{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: .85em;
+    font: inherit;
+    vertical-align: baseline;
+}
+body{
+    width: 300px;
+    margin: 0 auto;
+}
+#pureBanner{
+    width: 300px;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    position: relative;
+    cursor: pointer;
+    background-image: url(../img/bg.jpg);
+}
+.txt{
+  width: 300px;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+.txt1, .txt2, .txt3, .cta{
+  position: absolute;
+  margin-left: 30px;
+}
+.txt1{
+margin-top: 20px;
+}
+.txt2{
+margin-top: 70px;
+}
+.txt3{
+margin-top: 120px;
+}
+.cta{
+  margin-top: 170px;
+}

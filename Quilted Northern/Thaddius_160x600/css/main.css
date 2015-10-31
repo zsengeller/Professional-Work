@@ -1,0 +1,44 @@
+html, body, div, img{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.qnBanner {
+  margin: 0 auto;
+  -webkit-backface-visibility: hidden;
+  background-color: #000;
+  position: relative;
+  width: 160px;
+  height:600px;
+  overflow: hidden;
+  background-image: url(../images/bg.jpg);
+}
+.txt{
+  width: 300px;
+  height: 120px;
+  margin-top: 210px;
+  overflow: hidden;
+  position: relative;
+}
+.txt1, .txt2, .txt3, .txt4{
+  position: absolute;
+}
+.txt1{
+  padding-left: 12px;
+}
+.txt2{
+  padding-left: 7.5px;
+}
+.txt3{
+  padding-left: 15px;
+}
+.txt4{
+  padding-left: 20px;
+}
+.cta{
+  margin-left: 29px;
+  margin-top: 10px;
+}

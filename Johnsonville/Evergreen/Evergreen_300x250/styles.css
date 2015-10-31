@@ -1,0 +1,159 @@
+/******************************************************************************
+ *
+ * Johnsonville Cooking - 300x250 Banner
+ *
+ *****************************************************************************/
+
+
+
+
+/******************************************************************************
+ *
+ * Layout
+ *
+ *****************************************************************************/
+body {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 250px;
+}
+
+#banner {
+    box-sizing: border-box;
+    position: relative;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    border: solid 1px #333;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.background {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    background: url('bg.jpg') no-repeat;
+    background-size: cover;
+}
+
+.headline {
+    position: absolute;
+    background: url('txt_headline.png') no-repeat;
+    background-size: 247px 70px;
+    width: 247px;
+    height: 70px;
+    left: 27px;
+    top: 20px;
+}
+
+.word1 {
+    width: 115px;
+    height: 30px;   
+}
+
+.word2 {
+    width: 70px;
+    height: 30px;
+    left: 150px;
+    background-position: -120px 0;
+}
+
+.word3 {
+    width: 60px;
+    height: 30px;
+    left: 225px;
+    background-position: -190px 0;
+}
+
+.word4 {
+    width: 247px;
+    height: 30px;
+    top: 55px;
+    background-position: 0 -35px;
+}
+
+.sausage-sunday {
+    position: absolute;
+    background: url('sausageSunday.svg') no-repeat;
+    background-size: 275px 69px;
+    width: 275px;
+    height: 69px;
+    left: 13px;
+    top: 19px;
+
+    -webkit-filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.4));
+}
+
+.sausage {
+    position: absolute;
+    width: 300px;
+    height: 142.5px;
+    /*background: url('meatballs.png') no-repeat;
+    background-size: cover;*/
+    top: 107px;
+    z-index: 15;
+}
+
+
+.logo {
+    position: absolute;
+    background: url('logo.svg') no-repeat;
+    background-size: cover;
+    width: 133px;
+    height: 55px;
+    top: 189px;
+    left: 84px;
+    z-index: 50;
+
+    -webkit-filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.4));
+}
+
+.cta-divider {
+    position: relative;
+    width: 271px;
+    height: 2px;
+    background-color: rgba(255, 255,255, 0.75);
+    margin: auto;
+}
+
+.cta-divider-top {
+    top: 97px;
+}
+
+.cta-divider-bottom {
+    top: 141px;
+}
+
+.cta {
+    position: absolute;
+    background: url('txt_cta.png') no-repeat;
+    background-size: cover;
+    width: 149.5px;
+    height: 29.5px;
+    left: 69px;
+    top: 106px;
+}
+
+.cta-arrow {
+    background-color: tomato;
+    position: absolute;
+    background: url('arrow.svg') no-repeat;
+    background-size: cover;
+    left: 253px;
+    top: 111px;
+    width: 13px;
+    height: 20px;
+    z-index: 25;
+}
+.cta,
+.cta-divider,
+.cta-arrow {
+    visibility: hidden;
+}
+

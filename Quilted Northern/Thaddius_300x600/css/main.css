@@ -1,0 +1,37 @@
+html, body, div, img{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.qnBanner {
+  margin: 0 auto;
+  -webkit-backface-visibility: hidden;
+  background-color: #000;
+  position: relative;
+  width: 300px;
+  height:600px;
+  overflow: hidden;
+  background-image: url(../images/bg.jpg);
+}
+.txt{
+  width: 300px;
+  height: 120px;
+  margin-top: 200px;
+  overflow: hidden;
+  position: relative;
+}
+.txt1, .txt2, .txt3{
+  position: absolute;
+  padding-left: 75px;
+}
+.txt4{
+  position: absolute;
+  padding-left: 90px;
+}
+.cta{
+  margin-left: 100px;
+  margin-top: 10px;
+}
